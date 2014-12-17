@@ -1,0 +1,88 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[super]{nth}
+\usepackage{fontspec}
+
+%\documentclass{article}
+%\usepackage{fontspec}
+%\setmainfont[
+ %BoldFont={Minion Pro Bold}, 
+ %ItalicFont={Minion Pro Italic},
+ %BoldItalicFont={Minion Pro Bold Italic}
+ %]{Linux Libertine O}
+
+%\begin{document}
+%normal \emph{italic}, \textbf{bold} and \textbf{\emph{bold italic}}.
+%\end{document}
+
+\setmainfont[ Numbers={Proportional, OldStyle}, 
+            Scale=1.2,
+            BoldFont={6768.otf},
+            ItalicFont={6770.otf},
+            BoldItalicFont={6769.otf},
+            Ligatures=TeX,
+            SmallCapsFeatures={Letters=SmallCaps}]{6771.otf}
+
+
+
+\setmonofont{Inconsolata}
+
+
+
+\begin{document}
+
+0434 899 567
+
+\texttt{james@an.isotropic.me}
+
+On the {\addfontfeature{VerticalPosition=Ordinal}
+3rd
+}November, the following should occur:
+
+
+I'm playing around with ordinals {\addfontfeature{VerticalPosition=Ordinal}
+4th
+}January, the following should occur:
+
+Drupal \& \textsc{php} Developer
+
+At the time 9:30 \textsc{p.m.} the clock will tick
+
+Squashed \textsc{csrf} and \textsc{xss} vulnerability in form submission.
+
+Feb. 2001--Nov 2002
+
+this is a test
+
+\textbf{testing the bold} 
+
+
+\textit{Technologies:} JavaScript, Symfony, \textsc{sql}, \textsc{php}, \textsc{ajax} and \textsc{json}
+
+\emph{The Lab} is a network 
+\\
+
+\emph{testing the italics}
+
+\textbf{\emph{testing the bold italic}}
+
+\texttt{Ohai. I should be inconsolata}
+
+Having fun with ligatures:
+
+flower
+
+\textit{Select coursework:}
+
+\textbf{Primary Ethics}, \textit{Volunteer Developer}
+
+{Primary Ethics}
+
+
+\textbf{Griffith}
+
+fa\c{c}ade
+
+\textbf{University of New South Wales}
+
+\end{document}
